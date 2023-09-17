@@ -9,8 +9,6 @@ def my_function(path, pasta, arquivo):
         csvreader = csv.reader(file)
         for row in csvreader:
             migrateFile.write("{\"prompt\": \"" + row[0] + "\", \"completion\": \"" + row[1] + "\"}\n")
-            if(arquivo == "Doutorado Acadêmico em Educação.csv"):
-                print(row[0] + " "+ row[1])
 
 
 if pathlib.Path(".\\Dados-Migrados\\dados.jsonl").is_file():
