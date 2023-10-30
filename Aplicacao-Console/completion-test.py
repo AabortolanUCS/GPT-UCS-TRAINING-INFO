@@ -1,6 +1,5 @@
 import openai
 import os
-import json
 
 OPENAI_API_KEY = "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"
 openai.api_key = OPENAI_API_KEY
