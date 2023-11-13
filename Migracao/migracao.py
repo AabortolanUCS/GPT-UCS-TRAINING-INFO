@@ -1,7 +1,6 @@
 import csv
 import os
 import pathlib
-import re
 
 def my_function(path, pasta, arquivo):
   
